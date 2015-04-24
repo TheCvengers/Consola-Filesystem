@@ -50,7 +50,7 @@ int main(void) {
 		break;
 	case 6:
 		system("clear\necho \"Ingrese el directorio del archivo\"\nread DIR\nopenssl dgst -md5 -hex $DIR");
-		system("pause");
+		getchar();
 
 		break;
 	case 7:
